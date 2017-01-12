@@ -1,0 +1,2 @@
+<div data-ng-if="todoItem.selectedTodo.id !== todoItem.item.id" class="todo-item--readonly" data-ng-click="todoItem.startEditing({selectedTodo: todoItem.item})">{{todoItem.item.text}}</div>
+<textarea id="{{'todo-text-' + todoItem.item.id}}" data-ng-if="todoItem.selectedTodo.id === todoItem.item.id" class="todo-item--editable" ng-blur="todoItem.selectedToDoChange($event)">{{todoItem.item.text}}</textarea>

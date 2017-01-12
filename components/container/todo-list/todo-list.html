@@ -1,0 +1,7 @@
+<div class="col-sm-12 top-menu">
+    <ul>
+        <li ng-repeat="todo in todoList.list">
+            <todo-item item="todo" start-editing="todoList.setSelected(selectedTodo)" edit-complete="todoList.editComplete(newTodo)" selected-todo="todoList.selectedTodo" />
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,6 @@
+<ul data-ng-if="tree && tree.items.length > 0" class="{{tree.containerClass + '__tree-container'}}">
+    <li data-ng-repeat="item in tree.items" class="{{tree.containerClass + '__tree-item'}}">
+        <span data-value="{{item[tree.valueField]}}">{{item[tree.textField]}}</span>
+        <tree data-ng-if="item[tree.childrenField] && item[tree.childrenField].length > 0" />
+    </li>
+</ul>

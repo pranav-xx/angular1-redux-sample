@@ -1,0 +1,12 @@
+{
+    "list": [{
+        "id": 1,
+        "text": "Sample Todo"
+    }, {
+        "id": 2,
+        "text": "Sample Todo1"
+    }],
+    "paginator": {
+
+    }
+}

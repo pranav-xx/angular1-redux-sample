@@ -1,0 +1,11 @@
+.left-menu {
+    border-right: solid 1px #cecece;
+    margin-top: 34px;
+    height: 100%;
+    vertical-align: bottom;
+    &__tree-item {
+        font-weight: bold;
+        font-size: 12px;
+        height: 30px;
+    }
+}

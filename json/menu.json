@@ -1,0 +1,29 @@
+[{
+    "displayText": "Home",
+    "value": "home",
+    "type": "top"
+}, {
+    "displayText": "How To Invest",
+    "value": "howtoinvest",
+    "type": "top"
+}, {
+    "displayText": "Index Navs",
+    "value": "indexnavs",
+    "type": "top"
+}, {
+    "displayText": "Talk To Us",
+    "value": "talktous",
+    "type": "top"
+}, {
+    "displayText": "Liquid Alternatives Beta Indexes",
+    "value": "lab",
+    "type": "left"
+}, {
+    "displayText": "Event Driven Liquid Index",
+    "value": "evntdrvn",
+    "type": "left"
+}, {
+    "displayText": "Global Strategies Liquid Indexes",
+    "value": "global",
+    "type": "left"
+}]
